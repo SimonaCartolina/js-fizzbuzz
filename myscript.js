@@ -9,8 +9,10 @@ for(
 
         if(i % 3) {
             console.log('Fizz');
+            li.style.color="red";
         }
         else if(i % 5) {
             console.log ('Buzz');
+            li.style.color="green";
         }
     }
