@@ -15,4 +15,8 @@ for(
             console.log ('Buzz');
             li.style.color="green";
         }
+        else{
+            console.log('FizzBuzz')
+            li.style.color="yellow";
+        }
     }
