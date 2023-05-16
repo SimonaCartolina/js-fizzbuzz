@@ -6,4 +6,11 @@ for(
         li.append('elemento: ' + i);
         ulElement.appendChild(li);
         console.log(i);
+
+        if(i % 3) {
+            console.log('Fizz');
+        }
+        else if(i % 5) {
+            console.log ('Buzz');
+        }
     }
