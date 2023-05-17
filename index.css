@@ -1,0 +1,36 @@
+body{
+    background-color: antiquewhite;
+    padding:2rem;
+
+}
+h1{
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    background-color: rgb(155, 136, 173);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:2rem;
+    margin:1rem;
+    width:4rem;
+    height:4rem;
+    border-radius:20px;
+    text-align:center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#container{
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    width:1200px;
+}
